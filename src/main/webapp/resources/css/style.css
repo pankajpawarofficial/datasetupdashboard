@@ -1,0 +1,257 @@
+.glyphicon{
+	text-shadow:0px 0px 3px 1px rgba(145,145,145,1);
+}
+.icondetails{
+	padding-bottom:1%;	
+}
+
+#timetoggle,#spacetoggle{
+	height: inherit;
+}
+.floatleft{
+	float:left;
+}
+
+#owneddiv{
+	display: none;
+}
+
+.notvisible{
+	display: none;
+}
+
+.custompanel{
+    border-bottom: 1px solid #ddd;
+    margin: .2em .4em .2em .4em;
+}
+#custompanelhead{
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-top-left-radius: .2em;
+    border-top-right-radius: .2em;
+}
+
+.custompanelbody{
+    z-index: -2;
+    padding: .3em;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-bottom-left-radius: .2em;
+    border-bottom-right-radius: .2em;
+}
+
+.inlineselect{
+    display: inline-block; 
+}
+
+.inlinebanner{
+    height: 5%;
+    border: 1px solid orange;
+}
+
+.inlinedate{
+    display: inline-block;
+}
+
+.togglediv{
+    text-align: center;
+    display: inline-block;
+    box-shadow: 0px 0px 7px 1px rgba(143,143,143,1);
+}
+.otoggle{
+    background: linear-gradient(to bottom, #00d2ff, #3a7bd5);
+    color: white;
+    text-align: center; 
+    display: inline-block;
+    width: 7em;
+    cursor:pointer;      
+}
+.dtoggle{
+    background: linear-gradient(to bottom, #FFFFFF, #e8e1e1);
+    color: #2e4453;
+    text-align: center;
+    display: inline-block;
+    width: 7em;
+    cursor:pointer;
+    
+}
+
+.dtoggle:hover{
+	background: linear-gradient(to bottom, #e8e1e1, #FFFFFF);
+}
+.otoggle:hover{
+	background: linear-gradient(to bottom, #3a7bd5, #00d2ff);
+}
+
+/*progressbar*/
+.progresscontainer{
+    width: 100%;
+}
+
+.progresslist li{
+    list-style-type: none;
+    float: left;
+    width: 16.66%;
+    text-align: center;
+    position: relative;
+    
+}
+
+.progresslist li .edate:after{
+    content: '✖';
+    color: white;
+    width: 2.5em;
+    height: 2.5em;
+    border: .2em solid white;
+    box-shadow: 0px 0px 5px 3px rgba(145,145,145,1);
+    line-height: 1.9em;
+    display: block;
+    text-align: center;
+    margin: .3em auto .3em auto;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, darkgrey, lightgrey);
+    font-weight: 900;
+}
+
+.progresslist li .fdate:after{
+    content: '✔';
+    color: white;
+    width: 2.5em;
+    height: 2.5em;
+    border: .2em solid white;
+    box-shadow: 0px 0px 5px 3px rgba(145,145,145,1);
+    line-height: 1.9em;
+    display: block;
+    text-align: center;
+    margin: .3em auto .3em auto;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #add100, #7b920a);
+    font-weight: 900;
+}
+
+.progresslist li .ehead:after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: .7em;
+    background: lightgray;
+    top: 2.7em;
+    left: -50%;
+      z-index: -1;
+    border: 1px solid darkgray;
+}
+
+.progresslist li .fhead:after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: .7em;
+    background: linear-gradient(to bottom, #00d2ff, #3a7bd5);
+    top: 2.7em;
+    left: -50%;
+    z-index: -1;
+    border: 1px solid royalblue;
+}
+
+.progresslist li:first-child .ehead:after{
+    content: none;
+    display: none;
+}
+
+.progresslist li:first-child .fhead:after{
+    content: none;
+    display: none;
+}
+br{
+     clear: both;
+}
+.donutdiv{
+	padding:5%;
+	text-align: center;
+	height: 420px;
+}
+
+#SITChart{    
+    width:30%;
+    display: inline-block;
+}
+
+#QAChart{
+    width:30%;
+    display: inline-block;
+}
+
+#BUChart{
+    width:30%;
+    display: inline-block;
+}
+
+#flexdiv{
+    display: flex;
+}
+#flexchart{
+    flex: 1;
+}
+#flextable{
+    flex: 1;
+}
+
+#smallsearch{
+    width: 3em;
+}
+
+
+.orange{
+	color: #FF7E39;	
+}
+
+.green{
+	color: green;	
+}
+
+.greycircle{
+	display :inline-block;
+	background-color: lightgray;
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+
+	
+}
+
+.blackcircle{
+	display :inline-block;
+	background-color: gray;
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	
+}
+
+.yellowcircle{
+	display :inline-block;
+	background-color: yellow;
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	
+}
+
+.headcolor{
+	background-color: rgb(0, 110, 160);
+	color: white;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+table tbody tr:hover {
+	background-color:rgba(0, 175, 255, 0.05);
+	cursor: pointer;
+}
+
+table thead tr th{
+	text-align: center;
+}
